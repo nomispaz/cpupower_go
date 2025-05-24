@@ -18,7 +18,7 @@
         sha256 = "sha256-mPhYC/B8fu/99zSSoUTkniMnc5zI6PuqLN0HnGZr71k=";  # for the source archive
       };
 
-      vendorHash = "sha256-W7Aj/Jfr4AgAGYW9TdTUEmUqtWDb1G1kI/LUP6pFNNk=";  # temp hash to get the real one
+      vendorHash = null;  # temp hash to get the real one
 
       preBuild = ''
         export GOWORK=off
