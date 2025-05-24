@@ -15,7 +15,7 @@
         owner = "nomispaz";
         repo = "cpupower_go";
         rev = "f06fa7f618c874a879ab178519b897f03fdabdf3";
-        sha256 = "sha256-rkk8oH5ShfEoGyVVSHxgBWwAcF5jlYghZRcsVdrw/4s=";  # for the source archive
+        sha256 = "sha256-mPhYC/B8fu/99zSSoUTkniMnc5zI6PuqLN0HnGZr71k=";  # for the source archive
       };
 
       vendorHash = "sha256-W7Aj/Jfr4AgAGYW9TdTUEmUqtWDb1G1kI/LUP6pFNNk=";  # temp hash to get the real one
