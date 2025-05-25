@@ -9,12 +9,12 @@
   in {
     packages.${system}.cpupower_go = pkgs.buildGoModule {
       pname = "cpupower_go";
-      version = "0.1.1";
+      version = "0.1.2";
 
       src = pkgs.fetchFromGitHub {
         owner = "nomispaz";
         repo = "cpupower_go";
-        rev = "f31b08f3ea2a66435dfb6e906a63469078edd222";
+        rev = "dd4d88b6ee9ca3b89136d2990aefb17cbccda1a3";
         sha256 = "sha256-mPhYC/B8fu/99zSSoUTkniMnc5zI6PuqLN0HnGZr71k=";  # for the source archive
       };
 
