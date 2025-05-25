@@ -14,7 +14,7 @@
       src = pkgs.fetchFromGitHub {
         owner = "nomispaz";
         repo = "cpupower_go";
-        rev = "f06fa7f618c874a879ab178519b897f03fdabdf3";
+        rev = "f31b08f3ea2a66435dfb6e906a63469078edd222";
         sha256 = "sha256-mPhYC/B8fu/99zSSoUTkniMnc5zI6PuqLN0HnGZr71k=";  # for the source archive
       };
 
