@@ -9,7 +9,7 @@
   in {
     packages.${system}.cpupower_go = pkgs.buildGoModule {
       pname = "cpupower_go";
-      version = "0.1.0";
+      version = "0.1.1";
 
       src = pkgs.fetchFromGitHub {
         owner = "nomispaz";
